@@ -7,7 +7,10 @@ project(hello
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(hello src/main.cpp)
+include_directories(src/include)
+set(SOURCES src/hello.c
+            src/main.cpp)
+add_executable(hello ${SOURCES})
 
 target_compile_options(hello 
                         PRIVATE
