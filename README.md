@@ -1,7 +1,7 @@
 # Hello CMake
 
 ## Environment
-- Debian GNU/Linux 13 (trixie)
+- Ubuntu 22.04 13 (jammy)
 - CMake 3.16+
 - GCC 11+
 
