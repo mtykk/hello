@@ -1,7 +1,7 @@
 # Hello CMake
 
 ## Environment
-- Ubuntu 22.04 13 (jammy)
+- Ubuntu 22.04 (jammy)
 - CMake 3.16+
 - GCC 11+
 
